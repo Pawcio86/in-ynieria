@@ -24,3 +24,13 @@ elif delta == 0:
   print ("Pierwiastek x0 =", pierwiastek0)
 else:
   print ("Równanie nie ma żadnych pierwiastków")
+  
+# test
+import unittest
+
+class Test_test1(unittest.TestCase):
+    def test_A(self):
+        self.fail("Not implemented")
+
+if __name__ == '__main__':
+    unittest.main()
